@@ -26,11 +26,11 @@ username : `admin` password: `admin`
 ------------
 
 # Fitur 
-**1. LOGIN DAN LOGOUT**
-**2. CREATE (TAMBAH DATA)**
-**3. READ (LIHAT DATA)**
-**4. UPDATE (EDIT DATA)**
-**5. DELETE (DELETE DATA)**
-**6. Intergrasi dengan beda database**
+- LOGIN DAN LOGOUT
+-  CREATE (TAMBAH DATA)
+-  READ (LIHAT DATA)
+- UPDATE (EDIT DATA)
+- DELETE (DELETE DATA)
+-  Intergrasi dengan beda database
 # Gagal
-1. Upload Foto
+- Upload Foto
