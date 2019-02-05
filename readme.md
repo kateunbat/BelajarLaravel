@@ -1,40 +1,36 @@
-# Laravel basic CRUD example
+# laravel-crud
 
-## Functions
+Operasi CRUD Dasar dengan Laravel 5.7 dan AdminLTE dalam Single Page
 
-+ list all items
-+ create item
-+ show a given item
-+ update a given item
-+ delete a given item
+#Instruksi Install
 
-## Install
-0. `git clone https://github.com/richardtoth/laravel-crud.git`
-1. `cd laravel-crud`
-2. `composer install`
-3. create a .env file based on the env.example file in the project root and set up your database connection data
-4. run `php artisan key:generate`
-5. run `php artisan migrate` (create the tables)
-6. run `php artisan db:seed` (insert simple data to the database)
-7. run `php artisan serve`
+- Clone Project Ini caranya: 
+`git clone https://github.com/kateunbat/BelajarLaravel.git`
+- masuk ke directory BelajarLaravel
+`cd belajarLaravel`
+- Run composer install di cmd atau terminal kamu
+`composer install`
+- Save as *`.env.example `*ubah namanya menjadi *`.env` *di folder belajarLaravel.
+- buka file *`.env `*dan ubah database name (**homestead**) ke (**db_laravel_siswa**), username (**root**) and password (***kosongkan***) 
+- buat database di phpmyadmin dengan nama ***database db_laravel_siswa***
+import database **db_laravel_siswa.sql.zip** ke database ***database db_laravel_siswa***
+- buka lagi cmd atau terminal kalian 
+`Run php artisan key:generate`
+- dan terakhir untuk tes hasil project nya
+`Run php artisan serve`
+- buka browser kalian lalu masuk ke url 
+`http://127.0.0.1:8000`
+**Login**
+username : `admin` password: `admin`
 
-## Details
-+ `App/Http/routes.php`
-+ `App/Http/Controllers/ItemController.php`
-+ `App/Http/Requests/ItemRequest.php`
-+ `App/Repositories/ItemRepositoryInterface.php`
-+ `App/Repositories/DbItemRespository.php`
-+ `App/Item.php`
-+ `database/migrations/2016_08_14_095140_create_items_table.php`
-+ `database/seeds/ItemSeeder.php`
-+ `resources/views`
+------------
 
-## Screenshots
-### Home
-![home](https://github.com/richardtoth/laravel-crud/blob/develop/screenshots/home.png "Home")
-### Create
-![create](https://github.com/richardtoth/laravel-crud/blob/develop/screenshots/create.png "Create")
-### Show
-![show](https://github.com/richardtoth/laravel-crud/blob/develop/screenshots/show.png "Show")
-### Update
-![update](https://github.com/richardtoth/laravel-crud/blob/develop/screenshots/update.png "Update")
+# Fitur 
+**1. LOGIN DAN LOGOUT**
+**2. CREATE (TAMBAH DATA)**
+**3. READ (LIHAT DATA)**
+**4. UPDATE (EDIT DATA)**
+**5. DELETE (DELETE DATA)**
+**6. Intergrasi dengan beda database**
+# Gagal
+1. Upload Foto
