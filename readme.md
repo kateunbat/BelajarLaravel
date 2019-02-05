@@ -2,7 +2,7 @@
 
 Operasi CRUD Dasar dengan Laravel 5.7 dan AdminLTE dalam Single Page
 
-#Instruksi Install
+# Cara-Install
 
 - Clone Project Ini caranya: 
 `git clone https://github.com/kateunbat/BelajarLaravel.git`
