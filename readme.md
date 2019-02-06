@@ -15,9 +15,9 @@ Operasi CRUD Dasar dengan Laravel 5.7 dan AdminLTE dalam Single Page
 - buat database di phpmyadmin dengan nama ***database db_laravel_siswa***
 import database **db_laravel_siswa.sql.zip** ke database ***database db_laravel_siswa***
 - buka lagi cmd atau terminal kalian 
-`Run php artisan key:generate`
+`php artisan key:generate`
 - dan terakhir untuk tes hasil project nya
-`Run php artisan serve`
+`php artisan serve`
 - buka browser kalian lalu masuk ke url 
 `http://127.0.0.1:8000`
 **Login**
